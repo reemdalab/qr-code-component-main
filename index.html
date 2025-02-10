@@ -8,21 +8,58 @@
   
   <title>Frontend Mentor | QR code component</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
   <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      background-color: #D6E0F0;
+      margin: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .box
+    {
+      height: 360px; 
+      width: 225px; 
+      background-color: white;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      border-radius: 10px; 
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+      margin-top: 150px;
+    }
+    .box img
+    {
+      height: 215px;
+      width: 205px;
+      border-radius: 7px; 
+    }
+    .box p{
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: 15px;
+      text-align: center;
+      font-weight: bold;
+      width: 80%;
+      margin: 10px;
+      margin-top: 20px;
+    }
+    .box h6
+    {
+      font-family: Arial, Helvetica, sans-serif;
+      width: 80%;
+      text-align: center;
+      color: rgb(193, 193, 193);
+      margin: 10px;
+    }
   </style>
 </head>
 <body>
 
-  Improve your front-end skills by building projects
-
-  Scan the QR code to visit Frontend Mentor and take your coding skills to the next level
-  
-  <div class="attribution">
-    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+  <div class="box">
+      <img src="./images/image-qr-code.png" alt="QR code">
+      <p>Improve your front-end skills by building project</p>
+      <h6>Scan the QR code to visit Frontend Mentor and take your coding skills to next level</h6>
   </div>
 </body>
 </html>
